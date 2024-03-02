@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Cls_EmailMaster">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>LAAAAQAAACEABEABgkAAAEIQQABgBQACAAAAAKAAQAE=</HashCode>
+      <FileName>App_Code\Classes\BAL\Cls_EmailMaster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="clsGroupMemberRegistration">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEBAAAAACACAADAAAYAAAQIEAAAQKAACAQAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Classes\BAL\clsGroupMemberRegistration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="clsNews">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAIQgAAAAAAAAAAAAIADBEABBAAAAACDAAAI=</HashCode>
+      <FileName>App_Code\Classes\BAL\clsNews.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="clsNewsLetters">
+    <Position X="0.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIIAAAAIAAAEAAAAAAABwAAIQAAAAAAAAAACBAAAQ=</HashCode>
+      <FileName>App_Code\Classes\BAL\clsNewsLetters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="clsNGORegistration">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBAQAAIAAAAAAAAAAAAIAAAAABAAAAAAAIAAAAQAA=</HashCode>
+      <FileName>App_Code\Classes\BAL\clsNGORegistration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="clsPopulation">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAABFYAAAAAAAAAAAAIAEAAAAIAgAAgAAJQEAgAA=</HashCode>
+      <FileName>App_Code\Classes\BAL\clsPopulation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="clsSchedules">
+    <Position X="5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAiAABAAAAAAAQABAAAQgACAgAgACBAIAA=</HashCode>
+      <FileName>App_Code\Classes\BAL\clsSchedules.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="clsToxicSubstances">
+    <Position X="0.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAACAAAgAAAAEIgIAAAAAAAEAAAAAgAAgAAAAAA=</HashCode>
+      <FileName>App_Code\Classes\BAL\clsToxicSubstances.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="clsUserLogin">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCAAAAAAAAggAAEBIgAAAAAECgAgABAAACAAAAAAA=</HashCode>
+      <FileName>App_Code\Classes\BAL\clsUserLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chat">
+    <Position X="5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAAAAAAIAAAAAAAAAAAQAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Classes\Chat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="clsConnection">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Classes\Connection\clsConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalWarming.DAL.SqlHelper">
+    <Position X="16" Y="4.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="GlobalWarming.DAL.SqlHelper.SqlConnectionOwnership" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>App_Code\Classes\DAL\SQLHelper.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AACAAACAAAAAACAEABAAAEAAgAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Classes\DAL\SQLHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalWarming.DAL.SqlHelperParameterCache">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAECAAIAAAAAAAARAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Classes\DAL\SQLHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
