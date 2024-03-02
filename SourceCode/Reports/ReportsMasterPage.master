@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ReportsMasterPage.master.cs" Inherits="Reports_ReportsMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0032)http://www.globalwarming.org.in/ -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Stop Global Warming</title>
+    <link href="../Images/style.css" type="text/css" rel="stylesheet">
+    <style type="text/css">
+        .style1
+        {
+            font-size: 65%;
+        }
+    </style>
+    <link href="../Images/interstitial.css" type="text/css" rel="stylesheet">
+
+    <%--<script src="images/interstitial.js" type="text/javascript">
+/***********************************************
+* Interstitial Content Box
+***********************************************/
+
+</script>--%>
+<script language="_javascript_" type="text/javascript" >
+_javascript_:window.history.forward(1);
+</script>
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div id="container">
+        <div class="clearfix" id="holder">
+            <div id="logo">
+                <h1>
+                   Stop Global Warming(Keep Nature Clean)</h1>
+            </div>
+            <div id="navigation">
+                <ul>
+                    <li><a href="frmReportsHomePage.aspx">HOME</a>
+                        <li><a href="">APPROVE REGISTRATION</a>
+                            <li><a href="">SCHEDULES</a>
+                                <li><a href="#">ALTERNATIVE FUELS</a>
+                                    <li><a href="#">ABOUT US</a>
+                                       
+                </ul>
+            </div>
+            <div id="header">
+            </div>
+        </div>
+        <div id="divNew">
+            <div style="overflow: auto; background-color: #C5C5C3;height:auto">
+                <asp:ContentPlaceHolder ID="contentBody" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div id="footer">
+            <span id="copyright">In Association with <a href="#">Fish SEO</a> </span>
+            <ul>
+                <li><a href="#">GLOBAL WARMING</a>
+                    <li><a href="#">THE ISSUES</a>
+                        <li><a href="#">SOLAR PANELS</a>
+                            <li><a href="#">ALTERNATIVE FUELS</a>
+                                <li><a href="#">JOIN THE FIGHT</a>
+                                    <li><a href="#">FORUMS</a> </li>
+            </ul>
+
+            <script src="images/urchin.js" type="text/javascript">
+</script>
+
+            <script type="text/javascript">
+_uacct = "UA-622621-4";
+urchinTracker();
+</script>
+
+        </div>
+    </div>
+    </form>
+</body>
+</html>
