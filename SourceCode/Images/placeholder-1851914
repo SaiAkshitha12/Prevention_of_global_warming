@@ -1,0 +1,13 @@
+function submitCJ10391510X398(formId, url) {
+   var s = "";
+   if (url != null) {
+      s = "<form id=\"" + formId + "\" method=\"post\" action=\"http://www.dpbolvw.net/click\" target=\"_top\">\r\n<input type=\"hidden\" name=\"aid\" value=\"10391510\"/>\r\n<input type=\"hidden\" name=\"pid\" value=\"1609708\"/><input type=\"hidden\" name=\"url\" value=\"" + url + "\"/></form>";
+   } else {
+      s = "<form id=\"" + formId + "\" method=\"post\" action=\"http://www.dpbolvw.net/click\" target=\"_top\">\r\n<input type=\"hidden\" name=\"aid\" value=\"10391510\"/>\r\n<input type=\"hidden\" name=\"pid\" value=\"1609708\"/></form>";
+   }
+   var x = document.createElement("div");
+   x.innerHTML = s;
+   document.getElementsByTagName("body")[0].appendChild(x);
+   document.getElementById(formId).submit();
+}
+document.write("<a href=\"javascript:submitCJ10391510X398(\'CJ10391510X398\',null);\"><img src=\"http://www.yceml.net/0982/10391510-7.gif\" width=\"120\" height=\"60\" alt=\"Sell Your Car at cars.com!\" border=\"0\"/></a>");
